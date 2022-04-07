@@ -6,7 +6,8 @@
     <title>
         Tech Store
     </title>
-    <link href="">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     </head>
     <body>
   
@@ -20,6 +21,7 @@
           <span><a href="contact.html">contact us</a></span>
       </ul>
     </nav>
+    <input type="search" placeholder="search..">
     </header>
   
      <aside>
@@ -74,7 +76,8 @@
              <label for="message">Message:</label>  <textarea cols="20" rows="5" id="message" name="message"></textarea>
             </div>
 
-            <div>
+            
+           <!-- <div>
                 <label for="subject">Subject:</label>
                 <select id="subject">
                     <optgroup label="Product issues">
@@ -82,12 +85,24 @@
                     <option value="faulty_item">Faulty item</option>
                     </optgroup>
                   <optgroup label="Delivery">
-                    <option value="delivery">Delivery</option>
+                    <option value="delivery">Delivery info</option>
                     <option value="order_tracking">Order tracking</option>
                   </optgroup>
                 </select>
+            </div> -->
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+                <datalist id="subjects">
+                    <option value="returns">
+                    <option value="faulty item">
+                    <option value="delivery">
+                    <option value="order tracikng">
+                    <option value="order tracikng">
+                    <option value="advice">
+                    <option value="other">
+                </datalist>
             </div>
-
             <div>
                 <p>Subscribe to future offers by:</p>
                 <label for="newsletter">Newsletter</label>
@@ -106,15 +121,19 @@
                 <input type="radio" id="phoneResponse" name="response" value="phone">
                 <label for="emailResponse">Email</label>
                 <input type="radio" id="emailResponse" name="response" value="email">
+
             </div>
            <div>
-               
+             <input type="submit"> 
+             <input type="reset">
+             <!-- <button type="submit">Submit</button>-->
            </div>
 
           </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.4349758089775!2d-123.13000038436508!3d49.287102779331825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867187545a7cdd%3A0xdec0f622e16ee53b!2s788%20Jervis%20St%2C%20Vancouver%2C%20BC%20V6E%200B5!5e0!3m2!1scs!2sca!4v1649307750082!5m2!1scs!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </main>
 
-    <footer>
+    <footer> 
         <nav>
         
         
