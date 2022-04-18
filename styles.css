@@ -4,7 +4,7 @@ html {
 }
 body{
     background-color: rgb(255, 255, 255);
-    /* max-width: 80vw; */
+  
     margin: 0 auto;
     font-family: 'Barlow', sans-serif;
     color: grey;
@@ -51,7 +51,7 @@ display: inline-block;
 }
 
 header h1{
-    /* width: 65%; */
+  
     width: 100%;
 }
 .product {
@@ -64,18 +64,6 @@ header h1{
     text-align: center;
 }
 
-/* main {
-    width: 68%;
-    display: inline-block;
-    padding: 10px;
-} */
-
-/* aside{
-    width: 27% ;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-} */
 
 img{
     max-width: 100%;
@@ -147,7 +135,7 @@ tr:hover {
 }
 @media (min-width: 800px){
     input[type="search"] {
-    width: 40%;
+    width: 30%;
     margin-left: 2em;
 
     }
@@ -155,6 +143,39 @@ tr:hover {
     display: inline-block;
     width: 48%;
 }
+}
+
+@media (min-width: 1000px) {
+    body {
+        text-align: left;
+    }
+
+    header h1  {
+        width: 60%;
+    }
+
+main {
+    width: 68%;
+    display: inline-block;
+    padding: 10px;
+}
+
+aside{
+    width: 27% ;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+}
+
+@media (min-width: 1200px){
+  body {max-width: 80vw;}
+  .product{
+      width: 30%;
+  }
+  input[type="search"]{
+      width: 20%;
+  }
 }
 
 
